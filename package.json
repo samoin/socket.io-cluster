@@ -1,0 +1,25 @@
+{
+  "name": "socket.io-cluster",
+  "version": "0.0.1",
+  "description": "provide cluster of socket.io , that can solve more connections",
+  "main": "server.js",
+  "dependencies": {
+    "socket.io": "~0.9.14"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">= 0.10.5"
+  },
+  "scripts": {
+    "test": "var server = require(\"./server\");var onlineServers = server.servers;onlineServers.createServer();",
+    "start": "node server.js"
+  },
+  "readmeFilename": "Readme.md",
+  "repository": {
+  },
+  "author": {
+	  "name" : "samoin",
+	  "mail" : "gigi_ly180@sohu.com"
+	  }
+}
